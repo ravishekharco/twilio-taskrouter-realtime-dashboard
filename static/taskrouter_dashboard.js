@@ -1,7 +1,7 @@
 var taskrouterDashboard = new Vue({
   el: '#taskrouterDashboard',
   data: {
-    headerMessage: 'SaBRO Real-Time Dashboard',
+    headerMessage: 'Real-Time Dashboard',
     loggedUser: "ameer@twilio.com",
     userAuthenticated: false,
     syncStatus: "Disconnected",
