@@ -1,7 +1,7 @@
 var taskrouterDashboard = new Vue({
   el: '#taskrouterDashboard',
   data: {
-    headerMessage: 'TaskRouter Real-Time Dashboard',
+    headerMessage: 'SaBRO Real-Time Dashboard',
     loggedUser: "ameer@twilio.com",
     userAuthenticated: false,
     syncStatus: "Disconnected",
@@ -23,7 +23,7 @@ var taskrouterDashboard = new Vue({
     avgTaskAcceptanceTime: "0",
     missedSLA: false,
     withinSLA: true,
-    eventType: "Connected to Event Stream",
+    eventType: "Connected to Donation Stream",
     stats_get_url: "/sync_taskrouter_statistics",
     workers_get_url: "/taskrouter_workers",
     workers: {},
